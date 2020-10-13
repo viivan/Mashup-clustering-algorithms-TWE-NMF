@@ -7,7 +7,7 @@ LDA+wiki+K：通过Word2Vec 对wiki语料库进行预训练，得到词向量，
 BTM+K：采用针对短文本改进的BTM主题模型对Mashup服务主题建模，随后使用K-means聚类。<br>
 GPU-DMM+K：采用结合词嵌入信息的GPU-DMM主题模型对Mashup进行K-means聚类。<br>
 CLM+SC: 通过CLM主题模型对Mashup服务主题建模，采用谱聚类的方法对结果进行聚类。<br>
-TWE-NMF+SC：本文提出的方法，综合结合词嵌入和服务标签信息，对Mashup服务进行主题建模，采用谱聚类的方法对进行聚类。<br>
+TWE-NMF+SC：我们提出的方法，综合结合词嵌入和服务标签信息，对Mashup服务进行主题建模，采用谱聚类的方法对进行聚类。<br>
 
 
 其中，k-means和谱聚类都是调用sklearn中的库实现<br>
